@@ -1,3 +1,5 @@
+A simple Calculator but for copyright we saying Catculator 
+
 First 
 -input numbers you want in each place
 -There can only be two inputs
