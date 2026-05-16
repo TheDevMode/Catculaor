@@ -28,3 +28,5 @@ else:
 #Logic output
 print(f"{num_1}{operator}{num_2} = {result}",)
 
+#wait for user to exit
+input("\nTask complete! Press Enter to exit...")
