@@ -19,7 +19,12 @@ elif operator == "/":
 else:
     result = print("Invalid operation")
            
-    
+# if result is not None:
+    if result == 63 or result == 63.0:
+        print("Chosen random number!")
+        
+
+
 #Logic output
 print(f"{num_1}{operator}{num_2} = {result}",)
 
