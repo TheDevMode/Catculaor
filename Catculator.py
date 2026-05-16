@@ -18,8 +18,9 @@ elif operator == "/":
     result = num_1 / num_2
 else:
     result = print("Invalid operation")
-           
-# if result is not None:
+    
+#Easter Egg          
+if result is not None:
     if result == 63 or result == 63.0:
         print("Chosen random number!")
         
