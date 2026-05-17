@@ -1,3 +1,7 @@
+#Welcome 
+input("\nWELCOME, press enter to start...")
+
+
 #Input here
 num_1 = float(input("First number: "))
 num_2 = float(input("Second number: "))
