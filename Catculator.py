@@ -41,7 +41,9 @@ def standard_calculator():
         
         #Logic output
             print(f"{num_1}{operator}{num_2} = {result}",)
-            
+            out = input("Type exit to leave else continue: ").lower()
+            if out == "exit":
+                sys.exit(0)             
             
 def advanced_calculator():
     #Input here
@@ -57,7 +59,8 @@ def advanced_calculator():
         operator = input("Input one ( sqrt , log , sin , cos , tan ): ")
 
         result = None
-        #Logic
+        
+        #Logic Operation
         if operator == "sqrt":
             result = math.sqrt(num)
         elif operator == "log":
@@ -70,14 +73,18 @@ def advanced_calculator():
             result = math.tan(num)
         else:
             print("Invalid operation")
-
+        #Logic output
         if result is not None:
             print(f"{operator}({num}) = {result}")
+            out1 = input("Type exit to leave else continue: ").lower()
+            if out1 == "exit":
+                sys.exit()
+        
+        
 
 def exit():
     print("Exiting the calculator. Goodbye!")
-    sys.exit(0)#recommended to use sys.exit() for exiting the program instead of exit() for better control over the exit status.
-    
+    sys.exit(0)
 
 
 #user modes 
